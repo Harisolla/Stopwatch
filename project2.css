@@ -1,0 +1,55 @@
+body{
+    background: url(stopwatch.jpg) no-repeat center center/ cover;
+    height: 100vh;
+}
+.container{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    width: 30%;
+    height: 180px;
+    border-radius: 20px;
+    box-shadow: 0 0 9px;
+    background: transparent;
+    
+}
+#timer{
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    
+}
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    margin: 0 10px;
+    border: none;
+    
+    background-color: transparent;
+   
+}
+
+button i{
+    font-size: 30px;
+    padding: 5px;
+    
+    background-color: transparent;
+}
+
+#reset{
+    background-color:red;
+}
+#play{
+    background-color: green;
+    padding: 5px 10px;
+}
+#pause{
+    background-color:darkorange;
+    padding: 5px 10px;
+}
+
+#reset{
+    background-color:red;
+}
